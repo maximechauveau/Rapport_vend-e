@@ -1,9 +1,8 @@
 ---
-title: "Rapport"
-author: "Eric Guilmin et Maxime Chauveau"
-date: "26/09/2019"
 output: html_document
+runtime: shiny
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache = TRUE)
@@ -11,12 +10,56 @@ knitr::opts_chunk$set(echo = FALSE, cache = TRUE)
 
 
 ```{r library}
-library(leaflet)
-library(sf)
-library(sp)
-
+suppressPackageStartupMessages(suppressWarnings(library(leaflet)))
+suppressPackageStartupMessages(suppressWarnings(library(sf)))
+suppressPackageStartupMessages(suppressWarnings(library(sp)))
+suppressPackageStartupMessages(suppressWarnings(library(dplyr)))
 ```
+<div>
+<img src="https://pbs.twimg.com/profile_images/875730063773368322/GHFjX6Bl.jpg" width=20%" align="left"/>
 
+<img src="https://www.payssaintgilles.fr/medias/2016/07/conseil-departemental-de-la-vendee-311x122.png" width=25% align="right" />
+</div>
+<br /><br />
+\n<br />
+\n<br />
+\n<br />
+\n<br />
+\n<br />
+\n
+\n
+
+
+<center> <h1>L'espace naturel de la Vendée</h1> </center>
+
+\n<br />
+\n<br />
+
+<div align="center">
+<img src="http://www.sitesnaturels.vendee.fr/pictures/accueil/bg_vendeeNature.jpg" width=50%/>
+</div>
+
+\n<br />
+\n<br />
+
+<center>**Groupe :** É.Guilmin & M.Chauveau </center>
+
+\n<br />
+\n<br />
+
+<center>**Jury :** Conseillers Départemental de la Vendée & M.Theuliere </center>
+
+<center>**Responsable Pédagogique :** X.Aimé  </center>
+
+\n<br />
+\n<br />
+
+<center>**Établissement :** Cnam - Pays de la Loire - Nantes </center>
+
+<center>**Formation :** Master Mégadonnées et Analyse Sociale </center>
+
+\n<br />
+\n<br />
 
 
 ```{r load_data}
@@ -33,14 +76,25 @@ df_scap <- st_transform(df_scap, CRS("+proj=longlat +datum=WGS84"))
 df_alerte_CBNB <- read_sf(dsn = './data/CBNB/SHAPE/ALERTE_CBNB.shp')
 df_alerte_CBNB <- st_transform(df_alerte_CBNB, CRS("+proj=longlat +datum=WGS84"))
 
-# # Chargement carte vendee
+# Chargement carte vendee
 limite_vendee <- read_sf(dsn = 'data/LIMITE ADMINISTRATIVE/DEPARTEMENT_CARTO.shp')
 
-limite_vendee <- limite_vendee[25,]
+limite_vendee <- limite_vendee %>% filter(NOM_DEP_M == 'VENDEE')
+#limite_vendee <- limite_vendee[25,]
+
+# Chargement ZPENS
+df_ZPENS <- read_sf(dsn = './data/ENS/SHAPE/ZPENS.shp')
+df_ZPENS <- st_transform(df_ZPENS, CRS("+proj=longlat +datum=WGS84"))
+
+# Chargement ENS
+df_ENS <- read_sf(dsn = './data/ENS/SHAPE/ENS.shp')
+df_ENS <- st_transform(df_ENS, CRS("+proj=longlat +datum=WGS84"))
 ```
 
 
 ```{r traitement_data}
+#empeche les messages warning, error 
+knitr::opts_chunk$set(echo = FALSE, message = FALSE,warning = FALSE)
 #df_znieff1 <- df_znieff1 %>% st_intersects(limite_vendee)
 
 df_znieff1 <- df_znieff1[limite_vendee, , op = st_within]
@@ -48,43 +102,107 @@ df_znieff1 <- df_znieff1[limite_vendee, , op = st_within]
 df_scap <- df_scap[limite_vendee, , op = st_within]
 
 df_alerte_CBNB <- df_alerte_CBNB[limite_vendee, , op = st_within]
-
 ```
 
+<center> <h1>Présentation du sujet</h1> </center>
 
+\n<br />
+\n<br />
 
+définition de nouvelles zone environnementale
 
-```{r map}
+\n<br />
+\n<br />
+
+<center> <h1>#Partie 1 : description de l'instant T</h1> </center>
+
+\n<br />
+\n<br />
+
+La carte ci-dessous propose les différentes zones en Vendée qui présentent des intérêts environnementaux.
+En effet, nous avons retenu dans un premier temps 3 indicateurs :
+\n<br />
+-	les zones naturelles d'intérêts écologique faunistique et floristique (ZNIEFF de type 1)
+\n<br />
+-	stratégie de création des aires protégées (SCAP)
+\n<br />
+-	les CBNB
+\n<br />
+De plus, 2 filtres viennent compléter la carte à savoir les zones déjà protégées (ENS), mais aussi, les zones « surveillées », dites zones en préemption (ZPENS).
+L’enjeu de cette carte est de proposer rapidement une vue des zones qui présentent un intérêt d’un point de vue environnemental avec les zones soit déjà protégées, soit sous surveillance (ZPENS)
+
+\n<br />
+\n<br />
+
+```{r map,fig.width=10}
 
 # Coordonnee la Roche/Yon
-lati = 46.6667
-longi = -1.4333
+lati = 46.4029
+longi = -1.1752
 
-map_vendee <- leaflet() %>%
+
+map_vendee <- leaflet(data = limite_vendee) %>%
   addTiles() %>%
+  #addProviderTiles permet de choisir fond carte
+  addProviderTiles("CartoDB.Positron",
+                   group = "Map") %>%
+  addProviderTiles("Esri.WorldImagery",
+                   group = "Satellite") %>%
+  addProviderTiles("Esri.WorldShadedRelief",
+                   group = "Relief") %>%
+  #addScaleBar : échelle map
+  addScaleBar(position = "bottomleft") %>%
+  addLegend("bottomright",
+            colors = c("#3FADCB",
+                       "#84AAE6",
+                       "#8DA9CD",
+                       "#7CFC00",
+                       "#FF4500"),
+            labels = c("ZNIEFF1",
+                       "SCAP",
+                       "CBNB",
+                       "ENS",
+                       "ZPENS"),
+            opacity = 1) %>%
+  #addPolygons ajout couche aire
+  addPolygons(data = limite_vendee,
+              fillColor = FALSE,
+              color = "#000000",
+              opacity = 1,
+              fillOpacity = 0,
+              weight = 1.5) %>%
   addPolygons(data=df_znieff1,
               color = '#3FADCB',
-              group = 'ZNIEFF1') %>%
+              group = 'ZNIEFF1',
+              popup = df_znieff1$NOM) %>%
   addPolygons(data=df_scap,
               color = '#84AAE6',
-              group = 'SCAP') %>%
+              group = 'SCAP',
+              popup = df_scap$NOM) %>%
   addPolygons(data=df_alerte_CBNB,
               color = '#8DA9CD',
               group = 'Alerte CBNB') %>%
-  setView(lat = lati, lng = longi, zoom = 7) %>%
-  addLayersControl(overlayGroups = c('ZNIEFF1','Alerte CBNB','SCAP'),baseGroups = c("Map", "Satellite", "Relief"))
+  addPolygons(data=df_ENS,
+              color = '#7CFC00',
+              group = 'ENS',
+              popup = df_ENS$NOM_SITE) %>%
+  addPolygons(data=df_ZPENS,
+              color = '#FF4500',
+              group = 'ZPENS',
+              popup = df_ZPENS$NOM_SITE) %>%
+  #addLayersControl : choix des vues
+  addLayersControl(overlayGroups = c('ZNIEFF1','Alerte CBNB','SCAP','ENS','ZPENS'),baseGroups = c("Map", "Satellite", "Relief"))
 
 map_vendee
 ```
 
+\n<br />
+\n<br />
 
+<center> <h1>Partie 2 : aide à la décision</h1> </center>
 
-
-
-
-
-
-
+\n<br />
+\n<br />
 
 
 

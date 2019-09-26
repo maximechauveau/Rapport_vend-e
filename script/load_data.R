@@ -1,7 +1,7 @@
 getwd()
 
 #package pour la fonction read.dbf
-library(foreign)
+
 library(leaflet)
 library(sf)
 
@@ -38,29 +38,65 @@ leaflet(data=sf_oiseau_nicheur) %>%
 
 
 
+
 # Coordonnee la Roche/Yon
-lati = 46.6667
-longi = -1.4333
+lati = 46.4029
+longi = 1.1752
+
 
 map_vendee <- leaflet() %>%
   addTiles() %>%
+  #addProviderTiles permet de choisir fond carte
   addProviderTiles("CartoDB.Positron",
                    group = "Map") %>%
   addProviderTiles("Esri.WorldImagery",
                    group = "Satellite") %>%
   addProviderTiles("Esri.WorldShadedRelief",
                    group = "Relief") %>%
+  #addScaleBar : échelle map
+  addScaleBar(position = "bottomleft") %>%
+  addLegend("bottomright",
+            colors = c("#3FADCB",
+                       "#84AAE6",
+                       "#8DA9CD",
+                       "#7CFC00",
+                       "#FF4500"),
+            labels = c("ZNIEFF1",
+                       "SCAP",
+                       "CBNB",
+                       "ENS",
+                       "ZPENS"),
+            opacity = 1) %>%
+  #addPolygons ajout couche aire
+  addPolygons(data = limite_vendee,
+              fillColor = FALSE,
+              color = "#000000",
+              opacity = 1,
+              fillOpacity = 0,
+              weight = 1.5) %>%
   addPolygons(data=df_znieff1,
               color = '#3FADCB',
-              group = 'ZNIEFF1') %>%
+              group = 'ZNIEFF1',
+              popup = df_znieff1$NOM) %>%
   addPolygons(data=df_scap,
               color = '#84AAE6',
-              group = 'SCAP') %>%
+              group = 'SCAP',
+              popup = df_scap$NOM) %>%
   addPolygons(data=df_alerte_CBNB,
               color = '#8DA9CD',
               group = 'Alerte CBNB') %>%
-  setView(lat = lati, lng = longi, zoom = 7) %>%
-  addLayersControl(overlayGroups = c('ZNIEFF1','Alerte CBNB','SCAP'),baseGroups = c("Map", "Satellite", "Relief"))
+  addPolygons(data=df_ENS,
+              color = '#7CFC00',
+              group = 'ENS',
+              popup = df_ENS$NOM_SITE) %>%
+  addPolygons(data=df_ZPENS,
+              color = '#FF4500',
+              group = 'ZPENS',
+              popup = df_ZPENS$NOM_SITE) %>%
+  setView(lat = lati, lng = longi, zoom = 9) %>%
+  #addLayersControl : choix des vues
+  addLayersControl(overlayGroups = c('ZNIEFF1','Alerte CBNB','SCAP','ENS','ZPENS'),baseGroups = c("Map", "Satellite", "Relief"))
+
 map_vendee
 
 

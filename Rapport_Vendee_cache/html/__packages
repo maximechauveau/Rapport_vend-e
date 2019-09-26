@@ -2,3 +2,5 @@ base
 leaflet
 sf
 sp
+dplyr
+shiny

@@ -1,0 +1,13 @@
+name: Rapport_Vendee
+title: Rapport_Vendee
+username:
+account: maximechauveau
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1250835
+bundleId: 2448419
+url: https://maximechauveau.shinyapps.io/Rapport_Vendee/
+when: 1569532671.402
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data
