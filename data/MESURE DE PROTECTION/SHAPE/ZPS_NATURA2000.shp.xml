@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:geonet="http://www.fao.org/geonetwork" xsi:schemaLocation="http://www.cnig.gouv.fr/2005/fra ../schemas/iso19139Fra/fra/fra.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>44ef7df0-e468-11dc-99bc-000bcde6cb26</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>fre</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeListValue="utf8" codeList="MD_CharacterSetCode"/>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Jeu de données</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+				<gco:CharacterString>VIGNARD Ronan</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+				<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>02.40.99.58.32</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Nantes</gco:CharacterString>
+							</gmd:city>
+							<gmd:administrativeArea>
+								<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+							</gmd:administrativeArea>
+							<gmd:postalCode>
+								<gco:CharacterString>44022</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>ronan.vignard@developpement-durable.gouv.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeListValue="author" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2011-08-25T16:43:15</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_VectorSpatialRepresentation>
+			<gmd:topologyLevel>
+				<gmd:MD_TopologyLevelCode codeListValue="geometryOnly" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_TopologyLevelCode"/>
+			</gmd:topologyLevel>
+			<gmd:geometricObjects>
+				<gmd:MD_GeometricObjects>
+					<gmd:geometricObjectType>
+						<gmd:MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_GeometricObjectTypeCode" codeListValue="surface"/>
+					</gmd:geometricObjectType>
+				</gmd:MD_GeometricObjects>
+			</gmd:geometricObjects>
+		</gmd:MD_VectorSpatialRepresentation>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>RGF93 / Lambert-93 (EPSG:2154)</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>EPSG</gco:CharacterString>
+					</gmd:codeSpace>
+					<gmd:version>
+						<gco:CharacterString>7.4</gco:CharacterString>
+					</gmd:version>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<fra:FRA_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Natura 2000 : Zones de Protection Spéciale (ZPS) en Pays de la Loire</gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString>ZPS en Pays de la Loire</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2006-04-03</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeListValue="creation" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2007-09-19</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeListValue="revision" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2008-02-26</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeListValue="publication" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:edition>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:edition>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>PEYRE Françoise</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>02.40.99.58.52</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Nantes</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>44012</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>France</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>francoise.peyre@developpement-durable.gouv.fr</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeListValue="owner" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>GIRARD Jean-Luc</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>02.40.99.58.41</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Nantes</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>44022</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>France</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>jean-luc.giradr@developpement-durable.gouv.fr</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeListValue="owner" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>Ces zones font partie du réseau Natura 2000, réseau des espaces communautaires de protection des habitats et des espèces prioritaires.Les zones de protection spéciale (ZPS) sont des sites maritimes et terrestres particulièrement appropriés à la survie et à la reproduction d'espèces d'oiseaux sauvages figurant sur une liste arrêtée par le ministre chargé de l'environnement ou qui servent d'aires de reproduction, de mue, d'hivernage ou de zones de relais à des espèces d'oiseaux migrateurs.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>Les ZPS visent à : 
+- conserver ou rétablir dans un état favorable à leur maintien à long terme les habitats naturels et les populations des espèces de faune sauvages qui ont justifié la désignation du site Natura 2000. 
+- éviter la détérioration des habitats naturels et les perturbations de nature à affecter de façon significative les espèces de faune sauvages qui ont justifié la désignation du site Natura 2000.</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"/>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gco:CharacterString>SIMON Anne-Cécile</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>02.40.99.58.25</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Nantes</gco:CharacterString>
+									</gmd:city>
+									<gmd:administrativeArea>
+										<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+									</gmd:administrativeArea>
+									<gmd:postalCode>
+										<gco:CharacterString>44022</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>France</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>anne-cecile.simon@developpement-durable.gouv.fr</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeListValue="author" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gco:CharacterString>TERME Philippe</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>02.53.46.58.82</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Nantes</gco:CharacterString>
+									</gmd:city>
+									<gmd:administrativeArea>
+										<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+									</gmd:administrativeArea>
+									<gmd:postalCode>
+										<gco:CharacterString>44022</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>France</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>philippe.terme@developpement-durable.gouv.fr</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeListValue="custodian" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"/>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:contact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>VIGNARD Ronan</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>02.40.99.58.32</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Nantes</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>44022</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>France</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>ronan.vignard@developpement-durable.gouv.fr</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:contact>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:graphicOverview>
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>Zps52-300.png</gco:CharacterString>
+					</gmd:fileName>
+					<gmd:fileDescription>
+						<gco:CharacterString>thumbnail</gco:CharacterString>
+					</gmd:fileDescription>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>France</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeListValue="place" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>external.place.Pays</gco:CharacterString>
+							</gmd:title>
+							<gmd:date gco:nilReason="unknown"/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>PAYS-DE-LA-LOIRE</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeListValue="place" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>external.place.RegionFR</gco:CharacterString>
+							</gmd:title>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Ecologie et environnement</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Economie de l'environnement</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Politique de l'environnement</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Protection de la faune et de la flore</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Protection des espaces naturels</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>external.theme.environnement</gco:CharacterString>
+							</gmd:title>
+							<gmd:date gco:nilReason="unknown"/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<fra:FRA_LegalConstraints gco:isoType="gmd:MD_LegalConstraints">
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+					</gmd:accessConstraints>
+					<gmd:useConstraints>
+						<gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"/>
+					</gmd:useConstraints>
+				</fra:FRA_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<fra:FRA_SecurityConstraints gco:isoType="gmd:MD_SecurityConstraints">
+					<gmd:useLimitation>
+						<gco:CharacterString>Droit de propriété intellectuelle / Droit patrimonial</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ClassificationCode" codeListValue="unclassified"/>
+					</gmd:classification>
+				</fra:FRA_SecurityConstraints>
+			</gmd:resourceConstraints>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode"/>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:equivalentScale>
+						<gmd:MD_RepresentativeFraction>
+							<gmd:denominator>
+								<gco:Integer>25000</gco:Integer>
+							</gmd:denominator>
+						</gmd:MD_RepresentativeFraction>
+					</gmd:equivalentScale>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>fre</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"/>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:description>
+						<gco:CharacterString>Pays de la Loire</gco:CharacterString>
+					</gmd:description>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-3.28</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>-0.63</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>47.65</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>45.57</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:supplementalInformation>
+				<gco:CharacterString>Elles concernent :
+- soit les habitats des espèces inscrites à l'annexe 1 de la directive qui comprend les espèces menacées de disparition, vulnérables à certaines modifications de leurs habitats ou les espèces considérées comme rares parce que leurs populations sont faibles ou que leur répartition locale est restreinte ou enfin celles qui nécessitent une attention particulière en raison de la spécificité de leur habitat.
+- soit les milieux terrestres ou marins utilisés par les espèces migratrices non visées à l'annexe 1 dont la venue est régulière. Une importance particulière doit être accordée à la protection des zones humides, surtout celles d'importance internationale.</gco:CharacterString>
+			</gmd:supplementalInformation>
+		</fra:FRA_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>VIGNARD Ronan</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>02.40.99.58.32</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Nantes</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>44022</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>France</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>ronan.vignard@developpement-durable.gouv.fr</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeListValue="distributor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:fees>
+								<gco:CharacterString>Gratuité</gco:CharacterString>
+							</gmd:fees>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+					<gmd:distributorFormat>
+						<gmd:MD_Format>
+							<gmd:name>
+								<gco:CharacterString>TAB</gco:CharacterString>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>MapInfo 10.5</gco:CharacterString>
+							</gmd:version>
+							<gmd:fileDecompressionTechnique>
+								<gco:CharacterString>ZIP</gco:CharacterString>
+							</gmd:fileDecompressionTechnique>
+						</gmd:MD_Format>
+					</gmd:distributorFormat>
+					<gmd:distributorFormat>
+						<gmd:MD_Format>
+							<gmd:name>
+								<gco:CharacterString>MIF/MID</gco:CharacterString>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>MapInfo 10.5</gco:CharacterString>
+							</gmd:version>
+							<gmd:fileDecompressionTechnique>
+								<gco:CharacterString>ZIP</gco:CharacterString>
+							</gmd:fileDecompressionTechnique>
+						</gmd:MD_Format>
+					</gmd:distributorFormat>
+					<gmd:distributorFormat>
+						<gmd:MD_Format>
+							<gmd:name>
+								<gco:CharacterString>SHAPE</gco:CharacterString>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>ArcGIS 9</gco:CharacterString>
+							</gmd:version>
+							<gmd:fileDecompressionTechnique>
+								<gco:CharacterString>ZIP</gco:CharacterString>
+							</gmd:fileDecompressionTechnique>
+						</gmd:MD_Format>
+					</gmd:distributorFormat>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:unitsOfDistribution>
+						<gco:CharacterString>Régionale</gco:CharacterString>
+					</gmd:unitsOfDistribution>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.pays-de-la-loire.developpement-durable.gouv.fr/natura-2000-a1087.html</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Téléchargement des lots de données</gco:CharacterString>
+							</gmd:name>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeListValue="download" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://carmen.developpement-durable.gouv.fr/index.php?map=R_NATURA_2000_L93_R52.map&amp;service_idx=26W</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK-1.0-http--related</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Carte CARMEN "Le réseau Natura 2000 en Pays de la Loire"</gco:CharacterString>
+							</gmd:name>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://ws.carmen.developpement-durable.gouv.fr/WMS/26/R_MILIEUX_NATURELS_L93_R52?</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+							</gmd:protocol>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://ws.carmen.developpement-durable.gouv.fr/WFS/26/R_MILIEUX_NATURELS_L93_R52?</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>OGC:WFS-1.0.0-http-get-capabilities</gco:CharacterString>
+							</gmd:protocol>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>Numérisation à l'écran sur fond SCAN25.</gco:CharacterString>
+					</gmd:statement>
+					<gmd:source>
+						<gmd:LI_Source>
+							<gmd:description>
+								<gco:CharacterString>SCAN25 IGN</gco:CharacterString>
+							</gmd:description>
+							<gmd:scaleDenominator>
+								<gmd:MD_RepresentativeFraction>
+									<gmd:denominator>
+										<gco:Integer>25000</gco:Integer>
+									</gmd:denominator>
+								</gmd:MD_RepresentativeFraction>
+							</gmd:scaleDenominator>
+						</gmd:LI_Source>
+					</gmd:source>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo xmlns:srv="http://www.isotc211.org/2005/srv">
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>INSPIRE</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-06-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>INSPIRE related dataset</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>INSPIRE Implementing rules</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-06-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>-- more information on the test --</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo xmlns:srv="http://www.isotc211.org/2005/srv">
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>INSPIRE</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2011-08-25</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>INSPIRE related dataset</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>INSPIRE Implementing rules</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2011-08-25</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>-- more information on the test --</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataConstraints>
+		<fra:FRA_SecurityConstraints gco:isoType="gmd:MD_SecurityConstraints">
+			<gmd:classification>
+				<gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ClassificationCode" codeListValue="unclassified"/>
+			</gmd:classification>
+		</fra:FRA_SecurityConstraints>
+	</gmd:metadataConstraints>
+	<gmd:metadataConstraints>
+		<fra:FRA_Constraints gco:isoType="gmd:MD_Constraints"/>
+	</gmd:metadataConstraints>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded"/>
+			</gmd:maintenanceAndUpdateFrequency>
+			<gmd:contact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gco:CharacterString>VIGNARD Ronan</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gco:CharacterString>DREAL Pays de la Loire</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns="http://www.geosource.fr/2006/rpc" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:geo_rpc="http://www.geosource.fr/2006/rpc">
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>02.40.99.58.32</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>02.40.99.58.01</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>34, place Viarme BP 32205</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Nantes</gco:CharacterString>
+									</gmd:city>
+									<gmd:administrativeArea>
+										<gco:CharacterString>Loire-Atlantique</gco:CharacterString>
+									</gmd:administrativeArea>
+									<gmd:postalCode>
+										<gco:CharacterString>44022</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>France</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>ronan.vignard@developpement-durable.gouv.fr</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:contact>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+	<Esri><CreaDate>20190904</CreaDate><CreaTime>15554300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20121126</SyncDate><SyncTime>09030500</SyncTime><ModDate>20121126</ModDate><ModTime>09030500</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20120322" Time="184630">DeleteFeatures "Connexions aux bases de données\PART.sde\PART.DREAL_Zps" "Connexions aux bases de données\PART.sde\PART.DREAL_Zps"</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20141226" Time="164110">ChangePrivileges 'Connexions aux bases de données\PART.sde\PART.AGENCE_EAU_Masse_Eau_Cotieres';'Connexions aux bases de données\PART.sde\PART.AGENCE_EAU_Masse_Eau_Cours_Eau';'Connexions aux bases de données\PART.sde\PART.AGENCE_EAU_Masse_Eau_Plans_Eau';'Connexions aux bases de données\PART.sde\PART.AGENCE_EAU_Masse_Eau_Souterr';'Connexions aux bases de données\PART.sde\PART.AGENCE_EAU_Masse_Eau_Transit';'Connexions aux bases de données\PART.sde\PART.ARS_Captages_AEP';'Connexions aux bases de données\PART.sde\PART.ARS_Sites_Baignade_Eau_Douce';'Connexions aux bases de données\PART.sde\PART.ARS_Sites_Baignade_Mer';'Connexions aux bases de données\PART.sde\PART.ARS_Sites_Peche_a_Pied';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Hydro_Surfacique';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Hydro_Texture';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Laisse';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Noeud_Hydro';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Point_Eau_Isole';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Region';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Secteur';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Sous_Secteur';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Troncon_Hydro';'Connexions aux bases de données\PART.sde\PART.BDCARTHAGE_Zone_Hydro';'Connexions aux bases de données\PART.sde\PART.BRGM_BDLISA';'Connexions aux bases de données\PART.sde\PART.BRGM_BDRHF_V1';'Connexions aux bases de données\PART.sde\PART.CAF_MINIMAS_SOCIAUX';'Connexions aux bases de données\PART.sde\PART.CELRL_DPM';'Connexions aux bases de données\PART.sde\PART.CELRL_Perimetre_Intervention';'Connexions aux bases de données\PART.sde\PART.CELRL_Proprietes_Protegees';'Connexions aux bases de données\PART.sde\PART.CLC_1990_Vendee';'Connexions aux bases de données\PART.sde\PART.CLC_2000_D85_RGF';'Connexions aux bases de données\PART.sde\PART.CLC_2000R_D85_RGF';'Connexions aux bases de données\PART.sde\PART.CLC_2006_D85_RGF';'Connexions aux bases de données\PART.sde\PART.CLC_CHA00_D85_RGF';'Connexions aux bases de données\PART.sde\PART.CLC_CHA06_D85_RGF';'Connexions aux bases de données\PART.sde\PART.COM_AC_Autre_Noeud';'Connexions aux bases de données\PART.sde\PART.COM_AC_Avaloir';'Connexions aux bases de données\PART.sde\PART.COM_AC_Branchement';'Connexions aux bases de données\PART.sde\PART.COM_AC_Empl_Plan_Recol';'Connexions aux bases de données\PART.sde\PART.COM_AC_Equipement_sur_troncon';'Connexions aux bases de données\PART.sde\PART.COM_AC_Incident_sur_troncon';'Connexions aux bases de données\PART.sde\PART.COM_AC_Ouvrage';'Connexions aux bases de données\PART.sde\PART.COM_AC_Racordement_bran';'Connexions aux bases de données\PART.sde\PART.COM_AC_Regard';'Connexions aux bases de données\PART.sde\PART.COM_AC_Troncon_Asseniss';'Connexions aux bases de données\PART.sde\PART.DDTM_assemblage_cc_ge_085';'Connexions aux bases de données\PART.sde\PART.DDTM_assemblage_plu_ge_085';'Connexions aux bases de données\PART.sde\PART.DDTM_assemblage_pos_ge_085';'Connexions aux bases de données\PART.sde\PART.DDTM_Campings';'Connexions aux bases de données\PART.sde\PART.DDTM_Doc_Urbanisme';'Connexions aux bases de données\PART.sde\PART.DDTM_L146_6_pos_pac';'Connexions aux bases de données\PART.sde\PART.DDTM_Occup_Sol_Littoral_1985';'Connexions aux bases de données\PART.sde\PART.DDTM_Ta_pos';'Connexions aux bases de données\PART.sde\PART.DRAC_Clasmt_Monument_Merime';'Connexions aux bases de données\PART.sde\PART.DRAC_Classement_Monument';'Connexions aux bases de données\PART.sde\PART.DREAL_01_Evolution_Population';'Connexions aux bases de données\PART.sde\PART.DREAL_02_ETAT_CIVIL';'Connexions aux bases de données\PART.sde\PART.DREAL_03_AGE_ET_CSP';'Connexions aux bases de données\PART.sde\PART.DREAL_04_SCOLARISATION';'Connexions aux bases de données\PART.sde\PART.DREAL_05_MENAGES';'Connexions aux bases de données\PART.sde\PART.DREAL_06_POPULATION_ACTIVE';'Connexions aux bases de données\PART.sde\PART.DREAL_07_APPAREIL_PRODUCTIF';'Connexions aux bases de données\PART.sde\PART.DREAL_08_REVENUS_FISCAUX';'Connexions aux bases de données\PART.sde\PART.DREAL_09_PARC_DE_LOGEMENTS';'Connexions aux bases de données\PART.sde\PART.DREAL_10_RESIDENCES_PRINC';'Connexions aux bases de données\PART.sde\PART.DREAL_11_PARC_LOC_SOCIAL';'Connexions aux bases de données\PART.sde\PART.DREAL_12_FINANC_PARC_SOCIAL';'Connexions aux bases de données\PART.sde\PART.DREAL_13_DEMANDE_LOCAT_SOC';'Connexions aux bases de données\PART.sde\PART.DREAL_14_PARC_PRIVE_PROPRIO';'Connexions aux bases de données\PART.sde\PART.DREAL_15_PARC_LOC_PRIVE';'Connexions aux bases de données\PART.sde\PART.DREAL_16_CONSTR_LOGEMENT';'Connexions aux bases de données\PART.sde\PART.DREAL_17_CONSTR_LOCAUX';'Connexions aux bases de données\PART.sde\PART.DREAL_18_COUT_DU_FONCIER';'Connexions aux bases de données\PART.sde\PART.DREAL_19_MODES_CHAUFFAGE';'Connexions aux bases de données\PART.sde\PART.DREAL_20_Energie';'Connexions aux bases de données\PART.sde\PART.DREAL_21_GES';'Connexions aux bases de données\PART.sde\PART.DREAL_22_MOBILITE_RESID';'Connexions aux bases de données\PART.sde\PART.DREAL_23_MOBILITE_DT';'Connexions aux bases de données\PART.sde\PART.DREAL_24_PARC_AUTOMOBILE';'Connexions aux bases de données\PART.sde\PART.DREAL_25_EQUIPEMENTS';'Connexions aux bases de données\PART.sde\PART.DREAL_26_INFRASTRUCTURES';'Connexions aux bases de données\PART.sde\PART.DREAL_27_CONSOMM_ESPACE';'Connexions aux bases de données\PART.sde\PART.DREAL_28_BIODIVERSITE';'Connexions aux bases de données\PART.sde\PART.DREAL_30_EAU_TRAITEMENTS';'Connexions aux bases de données\PART.sde\PART.DREAL_31_RISQUES_NATURELS';'Connexions aux bases de données\PART.sde\PART.DREAL_32_RISQUES_TECHNO';'Connexions aux bases de données\PART.sde\PART.DREAL_33_DECHETS';'Connexions aux bases de données\PART.sde\PART.DREAL_Apb';'Connexions aux bases de données\PART.sde\PART.DREAL_Onzh';'Connexions aux bases de données\PART.sde\PART.DREAL_Pnr';'Connexions aux bases de données\PART.sde\PART.DREAL_Preloc_Zones_Humides';'Connexions aux bases de données\PART.sde\PART.DREAL_pSicMer_Surf';'Connexions aux bases de données\PART.sde\PART.DREAL_RISQUE_Inondation_Alea';'Connexions aux bases de données\PART.sde\PART.DREAL_RISQUE_Inondation_Cote';'Connexions aux bases de données\PART.sde\PART.DREAL_RISQUE_Inondation_Niv';'Connexions aux bases de données\PART.sde\PART.DREAL_RISQUE_Inondation_Phec';'Connexions aux bases de données\PART.sde\PART.DREAL_RISQUE_Inondation_Prof';'Connexions aux bases de données\PART.sde\PART.DREAL_RISQUE_Inondation_Synth';'Connexions aux bases de données\PART.sde\PART.DREAL_RISQUE_SISMICITe';'Connexions aux bases de données\PART.sde\PART.DREAL_Rnn';'Connexions aux bases de données\PART.sde\PART.DREAL_Sage';'Connexions aux bases de données\PART.sde\PART.DREAL_Sc';'Connexions aux bases de données\PART.sde\PART.DREAL_Si';'Connexions aux bases de données\PART.sde\PART.DREAL_Sic';'Connexions aux bases de données\PART.sde\PART.DREAL_Sic_ponctuel';'Connexions aux bases de données\PART.sde\PART.DREAL_SicMer_surfacique';'Connexions aux bases de données\PART.sde\PART.DREAL_Stations_hydro';'Connexions aux bases de données\PART.sde\PART.DREAL_Stations_qualite_rcs';'Connexions aux bases de données\PART.sde\PART.DREAL_Zico';'Connexions aux bases de données\PART.sde\PART.DREAL_Znieff1_G2';'Connexions aux bases de données\PART.sde\PART.DREAL_Znieff2_G2';'Connexions aux bases de données\PART.sde\PART.DREAL_Zps';'Connexions aux bases de données\PART.sde\PART.DREAL_ZpsMer';'Connexions aux bases de données\PART.sde\PART.DREAL_ZRE';'Connexions aux bases de données\PART.sde\PART.DREAL_Zsc_surfacique';'Connexions aux bases de données\PART.sde\PART.EPMP_Zones_Nodales_MP';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_Appareil_Coupure_aer';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_Armoire';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_Poste_Electrique';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_Poste_Source';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_Troncon_Aerien_BT';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_Troncon_Aerien_HTA';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_Troncon_souter_BT';'Connexions aux bases de données\PART.sde\PART.ERDF_ELEC_troncon_souter_HTA';'Connexions aux bases de données\PART.sde\PART.FEDE_PECHE_Jussie';'Connexions aux bases de données\PART.sde\PART.FRANCE_TELECOM_NRA';'Connexions aux bases de données\PART.sde\PART.FRANCE_TELECOM_SR';'Connexions aux bases de données\PART.sde\PART.FRANCE_TELECOM_ZNRA';'Connexions aux bases de données\PART.sde\PART.FRANCE_TELECOM_ZSR';'Connexions aux bases de données\PART.sde\PART.GRDF_GAZ_Canalisation';'Connexions aux bases de données\PART.sde\PART.GRDF_GAZ_Organe_Coupure';'Connexions aux bases de données\PART.sde\PART.GRDF_GAZ_Poste_Detente';'Connexions aux bases de données\PART.sde\PART.IFREMER_Stations_Qualite_Litto';'Connexions aux bases de données\PART.sde\PART.IGN_BDADRESSE_Adresse';'Connexions aux bases de données\PART.sde\PART.IGN_BDADRESSE_LieuDit_Habite';'Connexions aux bases de données\PART.sde\PART.IGN_BDADRESSE_Route_Adresse';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Aerodrome';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Cimetiere';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Construct_Elev';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Digue';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Enceinte_Militaire';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Ligne_Electrique';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Occupation_du_Sol';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Piste_Aerodrome';'Connexions aux bases de données\PART.sde\PART.IGN_BDCARTO_Voie_Ferree';'Connexions aux bases de données\PART.sde\PART.IGN_BDFORET_Vegetation';'Connexions aux bases de données\PART.sde\PART.IGN_Decoupage_IRIS';'Connexions aux bases de données\PART.sde\PART.INRA_INH';'Connexions aux bases de données\PART.sde\PART.INSEE_CHOMAGE_COM';'Connexions aux bases de données\PART.sde\PART.INSEE_ECONOMIE';'Connexions aux bases de données\PART.sde\PART.INSEE_IMMIGRATION_2010';'Connexions aux bases de données\PART.sde\PART.INSEE_POP_COURANTE_CANT';'Connexions aux bases de données\PART.sde\PART.INSEE_POPULATION_CANTON';'Connexions aux bases de données\PART.sde\PART.INSEE_POPULATION_COMMUNE';'Connexions aux bases de données\PART.sde\PART.INSEE_POPULATION_COURANTE';'Connexions aux bases de données\PART.sde\PART.INSEE_TOURISME';'Connexions aux bases de données\PART.sde\PART.NDES_AC_Autre_Noeud';'Connexions aux bases de données\PART.sde\PART.NDES_AC_Branchement';'Connexions aux bases de données\PART.sde\PART.NDES_AC_Equipement_Tronc';'Connexions aux bases de données\PART.sde\PART.NDES_AC_Ouvrage';'Connexions aux bases de données\PART.sde\PART.NDES_AC_Regard';'Connexions aux bases de données\PART.sde\PART.NDES_AC_Tabouret_raccord';'Connexions aux bases de données\PART.sde\PART.NDES_AC_Troncon_assen';'Connexions aux bases de données\PART.sde\PART.ONCFS_Inventaires_Roselieres';'Connexions aux bases de données\PART.sde\PART.ONEMA_Zones_Conchylicoles';'Connexions aux bases de données\PART.sde\PART.ONF_Foret';'Connexions aux bases de données\PART.sde\PART.ONF_Regime_Forestier';'Connexions aux bases de données\PART.sde\PART.REGION_Lycees_MFR';'Connexions aux bases de données\PART.sde\PART.SAUR_AC_Detail';'Connexions aux bases de données\PART.sde\PART.SAUR_AC_EU_TP_Branche';'Connexions aux bases de données\PART.sde\PART.SAUR_AC_EU_TP_Noeud';'Connexions aux bases de données\PART.sde\PART.SAUR_AC_EU_TP_Organetrc';'Connexions aux bases de données\PART.sde\PART.SAUR_AC_EU_TP_Raccbrc';'Connexions aux bases de données\PART.sde\PART.SAUR_AC_EU_TP_Troncon';'Connexions aux bases de données\PART.sde\PART.SFR_Antennes';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Borne_reper';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Branchement';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Canalisation';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Citerne';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Coffret';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Obj_ponctuel';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Poste_detente';'Connexions aux bases de données\PART.sde\PART.SOREGIES_GAZ_Vanne';'Connexions aux bases de données\PART.sde\PART.SYDEV_EP_Armoire';'Connexions aux bases de données\PART.sde\PART.SYDEV_EP_Dipole';'Connexions aux bases de données\PART.sde\PART.SYDEV_EP_Point_Lumineux';'Connexions aux bases de données\PART.sde\PART.VENDEE_EAU_AEP_Tron';'Connexions aux bases de données\PART.sde\PART.VENDEE_EAU_AEP_Tron_HorsVE';'Connexions aux bases de données\PART.sde\PART.VENDEE_EAU_SIAEP';'Connexions aux bases de données\PART.sde\PART.VEOLIA_AC_AS_Ouvrage';'Connexions aux bases de données\PART.sde\PART.VEOLIA_AC_Branchement';'Connexions aux bases de données\PART.sde\PART.VEOLIA_AC_Divers';'Connexions aux bases de données\PART.sde\PART.VEOLIA_AC_EQ_Special';'Connexions aux bases de données\PART.sde\PART.VEOLIA_AC_Regard';'Connexions aux bases de données\PART.sde\PART.VEOLIA_AC_Tabouret';'Connexions aux bases de données\PART.sde\PART.VEOLIA_AC_Troncon' WVS_MAJ_ROLE GRANT GRANT</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20150416" Time="150630">ChangePrivileges 'Connexions aux bases de données\PART.sde\PART.DREAL_Sage';'Connexions aux bases de données\PART.sde\PART.DREAL_Sic';'Connexions aux bases de données\PART.sde\PART.DREAL_SicMer_surfacique';'Connexions aux bases de données\PART.sde\PART.DREAL_Zico';'Connexions aux bases de données\PART.sde\PART.DREAL_Znieff1_G2';'Connexions aux bases de données\PART.sde\PART.DREAL_Znieff2_G2';'Connexions aux bases de données\PART.sde\PART.DREAL_Zps';'Connexions aux bases de données\PART.sde\PART.DREAL_ZpsMer' C_WEBROUTE GRANT #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20160223" Time="150103">ChangePrivileges 'Connexions aux bases de données\PART.sde\PART.DREAL_Sc';'Connexions aux bases de données\PART.sde\PART.DREAL_Si';'Connexions aux bases de données\PART.sde\PART.DREAL_Sic';'Connexions aux bases de données\PART.sde\PART.DREAL_SicMer_surfacique';'Connexions aux bases de données\PART.sde\PART.DREAL_Zps';'Connexions aux bases de données\PART.sde\PART.DREAL_Znieff2_G2';'Connexions aux bases de données\PART.sde\PART.DREAL_Znieff1_G2';'Connexions aux bases de données\PART.sde\PART.DREAL_Zico';'Connexions aux bases de données\PART.sde\PART.DREAL_Pnr';'Connexions aux bases de données\PART.sde\PART.DREAL_Apb';'Connexions aux bases de données\PART.sde\PART.DDTM_assemblage_plu_ge_085' AGOL GRANT #</Process></lineage><itemProps><itemLocation><linkage Sync="TRUE">Server=HERMES.cg85.fr; Service=sde:oracle$HERMES.cg85.fr:1522/SIG; User=PART; Version=SDE.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></itemLocation></itemProps></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><dataqual><lineage><procstep><procdesc Sync="TRUE">Métadonnées importées.</procdesc><srcused Sync="TRUE">J:\di.sig\05 - Logiciels et applications\Métadonnées\DIREN\ZPS.xml</srcused><procdate Sync="TRUE">20120312</procdate><proctime Sync="TRUE">10131900</proctime></procstep></lineage></dataqual><idinfo><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</native><descript><langdata Sync="TRUE">fr</langdata><abstract>REQUIRED: A brief narrative summary of the data set.</abstract><purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose></descript><citation><citeinfo><origin>REQUIRED: The name of an organization or individual that developed the data set.</origin><pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate><title Sync="TRUE">PART.DREAL_Zps</title><ftname Sync="TRUE">PART.DREAL_Zps</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink Sync="TRUE">Server=pan; Service=sde:oracle11g:/;LOCAL=SIG; User=PART; Version=SDE.DEFAULT</onlink></citeinfo></citation><timeperd><current>REQUIRED: The basis on which the time period of content information is determined.</current><timeinfo><sngdate><caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate></sngdate></timeinfo></timeperd><status><progress>REQUIRED: The state of the data set.</progress><update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update></status><spdom><bounding><westbc Sync="TRUE">-2.772520</westbc><eastbc Sync="TRUE">0.545879</eastbc><northbc Sync="TRUE">48.483429</northbc><southbc Sync="TRUE">46.069424</southbc></bounding><lboundng><leftbc Sync="TRUE">272878.963800</leftbc><rightbc Sync="TRUE">510712.033400</rightbc><bottombc Sync="TRUE">6567146.833200</bottombc><topbc Sync="TRUE">6823423.170900</topbc></lboundng></spdom><keywords><theme><themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt><themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey></theme></keywords><accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst><useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst><natvform Sync="TRUE">Classe d'entités ArcSDE</natvform></idinfo><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</envirDesc><dataLang><languageCode Sync="TRUE" value="fr"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">PART.DREAL_Zps</resTitle></idCitation><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">272878.9638</westBL><eastBL Sync="TRUE">510712.0334</eastBL><northBL Sync="TRUE">6823423.1709</northBL><southBL Sync="TRUE">6567146.8332</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-2.77252</westBL><eastBL Sync="TRUE">0.545879</eastBL><northBL Sync="TRUE">48.483429</northBL><southBL Sync="TRUE">46.069424</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><metainfo><langmeta Sync="TRUE">fr</langmeta><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metc><cntinfo><cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp><cntaddr><addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype><city>REQUIRED: The city of the address.</city><state>REQUIRED: The state or province of the address.</state><postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr><cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice></cntinfo></metc><metd Sync="TRUE">20121126</metd><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo><mdLang><languageCode Sync="TRUE" value="fr"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Informations géographiques - Métadonnées</mdStanName><mdStanVer Sync="TRUE"># 11108</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="# 11111"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="# 11109"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE"># 11110</mdHrLvName><distinfo><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">Server=pan; Service=sde:oracle11g:/;LOCAL=SIG; User=PART; Version=SDE.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">Classe d'entités ArcSDE</formatName></distorFormat></distributor></distInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="PART.DREAL_Zps"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">20</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="PART.DREAL_Zps"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">20</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><cordsysn><geogcsn Sync="TRUE">GCS_RGF_1993</geogcsn><projcsn Sync="TRUE">RGF93_Lambert_93</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000100</absres><ordres Sync="TRUE">0.000100</ordres></coordrep></planci><mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">44.000000</stdparll><stdparll Sync="TRUE">49.000000</stdparll><longcm Sync="TRUE">3.000000</longcm><latprjo Sync="TRUE">46.500000</latprjo><feast Sync="TRUE">700000.000000</feast><fnorth Sync="TRUE">6600000.000000</fnorth></lambertc></mapproj></planar><geodetic><horizdn Sync="TRUE">D_RGF_1993</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">RGF93_Lambert_93</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="PART.DREAL_Zps"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">20</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><eainfo><detailed Name="PART.DREAL_Zps"><enttyp><enttypl Sync="TRUE">PART.DREAL_Zps</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">20</enttypc></enttyp><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">ID_DPT</attrlabl><attalias Sync="TRUE">ID_DPT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ID_REGIONAL</attrlabl><attalias Sync="TRUE">REGIONAL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NOM</attrlabl><attalias Sync="TRUE">NOM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">160</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DATE_</attrlabl><attalias Sync="TRUE">DATE_</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">36</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SURF_SIG</attrlabl><attalias Sync="TRUE">SURF_SIG</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">2</attscale></attr><attr><attrlabl Sync="TRUE">TYPE</attrlabl><attalias Sync="TRUE">TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ID_TYPE</attrlabl><attalias Sync="TRUE">ID_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">SHAPE</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE.AREA</attrlabl><attalias Sync="TRUE">SHAPE.AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE.LEN</attrlabl><attalias Sync="TRUE">SHAPE.LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo><mdDateSt Sync="TRUE">20121126</mdDateSt></gmd:MD_Metadata>

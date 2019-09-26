@@ -1,0 +1,93 @@
+---
+title: "Rapport"
+author: "Eric Guilmin et Maxime Chauveau"
+date: "26/09/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache = TRUE)
+```
+
+
+```{r library}
+library(leaflet)
+library(sf)
+library(sp)
+
+```
+
+
+
+```{r load_data}
+
+#Chargement des zones naturelles d'interets ecologique faunistique et floristique
+df_znieff1 <- read_sf(dsn = './data/MESURE DE PROTECTION/SHAPE/ZNIEFF_I.shp')
+df_znieff1 <- st_transform(df_znieff1, CRS("+proj=longlat +datum=WGS84"))
+
+# Chargement stratégie de création des aires protégées
+df_scap <- read_sf(dsn = './data/MESURE DE PROTECTION/SHAPE/SECTEURS_SCAP.shp')
+df_scap <- st_transform(df_scap, CRS("+proj=longlat +datum=WGS84"))
+
+# Chargement ?
+df_alerte_CBNB <- read_sf(dsn = './data/CBNB/SHAPE/ALERTE_CBNB.shp')
+df_alerte_CBNB <- st_transform(df_alerte_CBNB, CRS("+proj=longlat +datum=WGS84"))
+
+# # Chargement carte vendee
+limite_vendee <- read_sf(dsn = 'data/LIMITE ADMINISTRATIVE/DEPARTEMENT_CARTO.shp')
+
+limite_vendee <- limite_vendee[25,]
+```
+
+
+```{r traitement_data}
+#df_znieff1 <- df_znieff1 %>% st_intersects(limite_vendee)
+
+df_znieff1 <- df_znieff1[limite_vendee, , op = st_within]
+
+df_scap <- df_scap[limite_vendee, , op = st_within]
+
+df_alerte_CBNB <- df_alerte_CBNB[limite_vendee, , op = st_within]
+
+```
+
+
+
+
+```{r map}
+
+# Coordonnee la Roche/Yon
+lati = 46.6667
+longi = -1.4333
+
+map_vendee <- leaflet() %>%
+  addTiles() %>%
+  addPolygons(data=df_znieff1,
+              color = '#3FADCB',
+              group = 'ZNIEFF1') %>%
+  addPolygons(data=df_scap,
+              color = '#84AAE6',
+              group = 'SCAP') %>%
+  addPolygons(data=df_alerte_CBNB,
+              color = '#8DA9CD',
+              group = 'Alerte CBNB') %>%
+  setView(lat = lati, lng = longi, zoom = 7) %>%
+  addLayersControl(overlayGroups = c('ZNIEFF1','Alerte CBNB','SCAP'),baseGroups = c("Map", "Satellite", "Relief"))
+
+map_vendee
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
