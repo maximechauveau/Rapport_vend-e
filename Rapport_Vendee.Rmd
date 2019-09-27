@@ -29,8 +29,9 @@ suppressPackageStartupMessages(suppressWarnings(library(dplyr)))
 \n
 \n
 
-
+<div>
 <center> <h1>L'espace naturel de la Vendée</h1> </center>
+</div>
 
 \n<br />
 \n<br />
@@ -114,7 +115,7 @@ définition de nouvelles zone environnementale
 \n<br />
 \n<br />
 
-<center> <h1>#Partie 1 : description de l'instant T</h1> </center>
+<center> <h1>Partie 1 : description de l'instant T</h1> </center>
 
 \n<br />
 \n<br />
@@ -205,6 +206,9 @@ map_vendee
 \n<br />
 
 
+<div>
+<img src="" width=20%" align="left"/>
+</div>
 
 
 

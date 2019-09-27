@@ -99,7 +99,23 @@ map_vendee <- leaflet() %>%
 
 map_vendee
 
+## Map carreaux ##
 
+# Chargement carreaux
+df_ZPENS <- read_sf(dsn = './data/ENS/SHAPE/ZPENS.shp')
+df_ZPENS <- st_transform(df_ZPENS, CRS("+proj=longlat +datum=WGS84"))
+
+map_carreau <- leaflet(data = limite_vendee) %>%
+  addTiles() %>%
+  #addProviderTiles permet de choisir fond carte
+  addProviderTiles("CartoDB.Positron",
+                   group = "Map") %>%
+  addProviderTiles("Esri.WorldImagery",
+                   group = "Satellite") %>%
+  addProviderTiles("Esri.WorldShadedRelief",
+                   group = "Relief") %>%
+  #addScaleBar : échelle map
+  addScaleBar(position = "bottomleft")
 
 
 
