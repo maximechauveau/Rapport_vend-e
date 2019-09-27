@@ -110,7 +110,9 @@ df_alerte_CBNB <- df_alerte_CBNB[limite_vendee, , op = st_within]
 \n<br />
 \n<br />
 
-définition de nouvelles zone environnementale
+L'objectif de ce travail est de founir une aide dans le cadre de la stratégie de protection des espaces environnementaux en Vendée.\n<br />
+
+Nous avons volontairement porté l'analyse en se basant uniquement sur 3 critères. Il serait envisageable par la suite d'enrichir cette base de travail en y ajoutant des indicateurs complémentaires.
 
 \n<br />
 \n<br />
@@ -121,14 +123,14 @@ définition de nouvelles zone environnementale
 \n<br />
 
 La carte ci-dessous propose les différentes zones en Vendée qui présentent des intérêts environnementaux.
-En effet, nous avons retenu dans un premier temps 3 indicateurs :
+En effet, nous avons retenu comme cité en préambule 3 indicateurs :
 \n<br />
 -	les zones naturelles d'intérêts écologique faunistique et floristique (ZNIEFF de type 1)
 \n<br />
 -	stratégie de création des aires protégées (SCAP)
 \n<br />
 -	les CBNB
-\n<br />
+\n<br />\n<br />
 De plus, 2 filtres viennent compléter la carte à savoir les zones déjà protégées (ENS), mais aussi, les zones « surveillées », dites zones en préemption (ZPENS).
 L’enjeu de cette carte est de proposer rapidement une vue des zones qui présentent un intérêt d’un point de vue environnemental avec les zones soit déjà protégées, soit sous surveillance (ZPENS)
 
@@ -204,12 +206,27 @@ map_vendee
 
 \n<br />
 \n<br />
+La carte ci dessous se base sur les 3 mêmes critères à savoir:
+\n<br />
+-	les zones naturelles d'intérêts écologique faunistique et floristique (ZNIEFF de type 1)
+\n<br />
+-	stratégie de création des aires protégées (SCAP)
+\n<br />
+-	les CBNB
+\n<br />
+
+L'enjeu de cette carte est de proposer graphiquement une aide à la surveillance des zones protégées basée sur un indicateur de synthese. Ce dernier a été défini comme suit:
+O: absence\n<br />
+1: 1 indicateur présent sur zone\n<br />
+2: 2 indicateurs présents sur zone (par exemple, CBNB + SCAP)\n<br />
+3: les 3 indicateurs sont présents sur zone\n<br />
 
 
-<div>
-<img src="" width=20%" align="left"/>
+<div  align="center">
+<img src="https://raw.githubusercontent.com/maximechauveau/Rapport_vendee/master/Rplot.png"/>
 </div>
 
-
+\n<br />
+\n<br />
 
 
